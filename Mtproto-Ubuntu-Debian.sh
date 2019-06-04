@@ -64,7 +64,7 @@ if [ ${OS} == Ubuntu ] || [ ${OS} == Debian ];then
 fi
 
 # Enter the Proxy Port
-read -p "Inout the Port for running MTProxy [Default: 2082]： " uport
+read -p "Input the Port for running MTProxy [Default: 2082]： " uport
 if [[ -z "${uport}" ]];then
 	uport="2082"
 fi
